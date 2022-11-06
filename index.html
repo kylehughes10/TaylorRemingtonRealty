@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remington Realty</title>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@100;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <nav class="global-navbar">
+        <header class="header-headroom">
+            <div class="navbar-default">
+                <div class="container">
+                    <div class="navbar-header">
+                        <div class="logo-container">
+                            <a href="#" class="logo-holder">Taylor Remington</a>
+                        </div>   
+                        <div class="nav-listings">
+                            <ul class="navbar-navlist">
+                                <li class="nav-item"><a href="http://turnkeyrealtyok.idxbroker.com/idx/featured?srt=prd" data-toggle="model" role="button" class="nav-link">Our Listings</a></li>
+                                <li class="nav-item"><a href="Contact.html" data-toggle="model" role="button" class="nav-link">Contact</a></li>
+                                <li class="nav-item" id="aboutid"><a href="#About" data-toggle="model" role="button" class="nav-link" onClick="aboutRun">About</a></li>
+                                <button class="hamburger">
+                                    <div class="bar"></div>
+                                </button>
+                            </ul>                     
+                        </div> 
+                        <nav class="mobile-nav">
+                            <ul class="mobile-navbar-navlist">
+                                <li class="nav-item"><a href="http://turnkeyrealtyok.idxbroker.com/idx/featured?srt=prd" data-toggle="model" role="button" class="nav-link">Our Listings</a></li>
+                                <li class="nav-item"><a href="Contact.html" data-toggle="model" role="button" class="nav-link">Contact</a></li>
+                                <li class="nav-item"><a href="#About" data-toggle="model" role="button" class="nav-link" onClick="aboutRun">About</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </nav>
+    <section id="section-1"class="section1">
+        <div class="video-wrapper">
+            <div class="full-screen-video-component">
+                <div class="video-wrapper-hidable-playing">
+                    <video class="slide" id="video1" style="height:100%;"  muted loop autoplay poster="background-video" style="display:none;">
+                        <source src="arialviewfinal.mp4"  type="video/mp4" data-slick-index="1" >
+                    </video>
+                    <!--<video class="slide" id="video2" style="height:100%;"  muted loop autoplay poster="background-video" onended()="run();">
+                        <source src="kitchenvid.mp4" id="video" type="video/mp4" data-slick-index="2">
+                    </video>
+                    <video class="slide" id="video3"style="height:100%;"  muted loop autoplay poster="background-video" onended()="run();">
+                        <source src="home2.mp4" id="ss" type="video/mp4" data-slick-index="3">
+                    </video>--> 
+                </div>
+                <div class="poster">
+                    <img src="home1.jpg" alt="Home">
+                </div>
+            </div> 
+        </div>           
+        <div class="overlay-component" style="background-color: rgba(0,0,0,0.40)"></div>
+        <div class="homepage-intro-redesign">
+            <div class="content">
+                <div class="item-carousel-container">
+                    <div class="slick-list">
+                        <div class="slick-track">
+                            <div class="item-slick-slide" data-slick-index="0" aria-hidden="false" tabindex="0">
+                                <h5>Oklahoma Realtor</h5>
+                                <h1 id="taylor-name">Taylor Remington</h1>
+                            </div>
+                            <!--<div class="item-slick-slide">
+                                <h5>World Class</h5>
+                                <h1>Service</h1>
+                            </div>
+                            <div class="item-slick-slide">
+                                <h5>Find Your</h5>
+                                <h1>Home</h1>
+                            </div>  -->  
+                        </div>
+                    </div>
+                </div>
+                <div class="sub-heading-feature"><a href="https://www.turnkeyrealtyok.com/"><img src="turnkey logo.webp" alt="TurnKey Realty"></a></div>
+                <div class="button-wrapper"><a href="https://www.zillow.com/?utm_medium=cpc&utm_source=google&utm_content=1471764169|65545421228|aud-834134226151:kwd-570802407|603457706088|&semQue=null&gclid=Cj0KCQjwk5ibBhDqARIsACzmgLTk9GSHJlTvNmkt48yueTCdnvapv_wZ3bX5pHhbohHsU28x7D1edKUaAoCrEALw_wcB" class="homepage-button">Search Listings</a></div>
+            </div>
+        </div>
+    </section>
+    <section id="section-2"class="section2">
+        <div class="gallery-component">
+            <div class="lp-container">
+                <div class="gallery-component-header">
+                    <h2 class="h2-gallery-component-header">- Working with Taylor -</h2>
+                </div>
+                <div class="gallery-component-row">
+                    <div class="gallery-component-col">
+                        <div class="div-images">
+                            <a href="https://www.turnkeyrealtyok.com/" class="gallery-card">
+                                <img class="img1"src="house1.jpg" alt="Home Search">
+                                <h3 class="caption1">View my Listings</h3>
+                            </a>
+                        </div>
+                        <div class="div-images">
+                            <a href="jointhecommunity.html" class="gallery-card">
+                                <img class="img2"src="communitypic.jpg" alt="Home Search">
+                                <h3 class="caption2">Join the Community</h3>
+                            </a>
+                        </div>
+                        <div class="div-images">
+                            <a href="Contact.html" class="gallery-card">
+                                <img class="img3"src="house2.jpg" alt="Work with Taylor">
+                                <h3 class="caption3">Work with Taylor</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section3" id="section-3">
+        <div class="about-section">
+            <div class="left-split">
+                <div class="split-text">
+                    <h2>Oklahoma's Rising Star in Realty</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem accusantium quo officia praesentium nulla laboriosam, asperiores sint, at beatae provident deserunt exercitationem perferendis temporibus excepturi omnis. Iure temporibus quod ipsum?
+                    Eum natus nostrum, ea deleniti neque ad eius voluptas aliquid. Aut odio id aliquid vitae illo accusamus numquam obcaecati natus. Pariatur commodi culpa rerum eum eveniet! Quidem quod dolorum porro!
+                    Eos ipsa praesentium dolorum, culpa beatae quo porro consequatur velit incidunt vitae aperiam unde labore, rerum inventore dicta ut aliquam. Voluptatem cum sit, cumque consequatur impedit ipsa veritatis praesentium totam!
+                    Eos molestiae sint aspernatur dolorum quo nemo dignissimos excepturi atque officiis deserunt. Eaque ducimus beatae vitae ratione modi optio rem et eligendi earum sapiente expedita doloremque, dolore officiis quas unde.
+                    Laudantium quis, quas quod fuga possimus illum quia modi dolor debitis nobis. Sit at tenetur magnam repudiandae eligendi cumque eos veniam id, nobis dolore ratione iusto, neque animi consequatur a.</p>
+                </div>
+            </div>
+            <div class="image-split">
+                <img src="headshot.jpg" alt="Taylor Remington">
+            </div>
+        </div>
+    </section>
+    <section class="section4" id="section-4">
+        <div class="comment-header">
+            <h2 class="h2-comment-header">- Quotes from Clients -</h2>
+        </div>
+        <div class="comment-container">
+            <div class="quote-wrapper">
+                <div class="quote" id="quote1">
+                    <p><b><em>"</em></b> As a newly engaged couple making big decisions, we were so <em><i>thankful</i></em> that our process was <em><i>quick</i></em> and <em><i>efficient</i></em>. Taylor helped us put into motions dreams of buying land for our first home. We highly recommend using her!<b><em>"</em></b></p>
+                </div>
+                <div class="quote" id="quote2">
+                    <p>"Taylor was so easy to work with. She made the process very simple"</p>
+                </div>
+                <div class="quote" id="quote3">
+                    <p>"We are so thankful that Taylor helped us buy our beautiful home & acreage. We moved all the way from North Carolina to Oklahoma. She went above and beyod educating us about the move. Highly recommend using her for all real estate needs."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+<script src="script.js"></script>
+</body>
+</html>
