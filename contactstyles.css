@@ -128,7 +128,7 @@ nav .header-headroom .navbar-navlist .nav-link{
 .hamburger{
     position: relative;
     display: block;
-    width: 35px;
+    margin-right: 25px;
     cursor: pointer;
     appearance: none;
     outline: none;

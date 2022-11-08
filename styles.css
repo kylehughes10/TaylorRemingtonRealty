@@ -128,6 +128,7 @@ nav .header-headroom .navbar-navlist .nav-link{
 .hamburger{
     position: relative;
     display: block;
+    margin-right: 25px;
     width: 35px;
     cursor: pointer;
     appearance: none;
@@ -292,6 +293,7 @@ body .section1{
     width: 100%;
     object-fit: cover;
 }
+
 .section1 .video-wrapper .full-screen-video-component .poster{
     opacity: 1;
     transition: opacity 1s cubic-bezier(.835,0,0.19,1);
